@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropLogic", "PropLogic\PropLogic.csproj", "{934549B9-8E82-40A0-BA96-DAD12B148276}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropLogic", "PropLogic\PropLogic.csproj", "{7E419936-FEA9-4986-932C-36DFF49F9451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,9 +9,9 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{934549B9-8E82-40A0-BA96-DAD12B148276}.Debug|x86.ActiveCfg = Debug|x86
-		{934549B9-8E82-40A0-BA96-DAD12B148276}.Debug|x86.Build.0 = Debug|x86
-		{934549B9-8E82-40A0-BA96-DAD12B148276}.Release|x86.ActiveCfg = Release|x86
-		{934549B9-8E82-40A0-BA96-DAD12B148276}.Release|x86.Build.0 = Release|x86
+		{7E419936-FEA9-4986-932C-36DFF49F9451}.Debug|x86.ActiveCfg = Debug|x86
+		{7E419936-FEA9-4986-932C-36DFF49F9451}.Debug|x86.Build.0 = Debug|x86
+		{7E419936-FEA9-4986-932C-36DFF49F9451}.Release|x86.ActiveCfg = Release|x86
+		{7E419936-FEA9-4986-932C-36DFF49F9451}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
