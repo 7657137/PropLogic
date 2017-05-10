@@ -1,1 +1,15 @@
-﻿<Properties StartupItem="PropLogic/PropLogic.csproj" />
+﻿<Properties StartupItem="PropLogic/PropLogic.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PropLogic/Properties/KnowledgeBase.cs">
+    <Files>
+      <File FileName="PropLogic/Program.cs" Line="13" Column="1" />
+      <File FileName="PropLogic/Properties/KnowledgeBase.cs" Line="11" Column="25" />
+      <File FileName="PropLogic/Properties/Relationship.cs" Line="49" Column="60" />
+      <File FileName="PropLogic/Properties/Variable.cs" Line="33" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

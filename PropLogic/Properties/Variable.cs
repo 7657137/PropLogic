@@ -7,6 +7,7 @@ namespace PropLogic
 	{
 		private string _name;
 		private bool _truth;
+		private bool _checkflag;		//Flag for if the variable has been checked
 		private List<Relationship> _relationships = new List<Relationship>();
 
 		public string Name{
@@ -29,6 +30,7 @@ namespace PropLogic
 		{
 			_name = name;
 			_truth = false;		//To be set true if named in txt file
+			_checkflag = false;
 		}
 
 		public void AddRel(Relationship rel){

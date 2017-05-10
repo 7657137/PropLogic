@@ -6,7 +6,7 @@ namespace PropLogic
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			KnowledgeBase kb = new KnowledgeBase ("test1.txt");
 		}
 	}
 }
