@@ -35,6 +35,7 @@ namespace PropLogic
 			foreach (Variable v in _left) {
 				Console.Write (v.Name + " ");
 			}
+			Console.Write (_type + " ");
 			Console.WriteLine ("=> " + _right.Name);
 		}
 
@@ -46,12 +47,17 @@ namespace PropLogic
 				break;
 
 			case RelType.AND:
-				if ((_left [0].Truth && _left [1].Truth) == true)
+				foreach (Variable v in _left) {
+					if (v.Truth == false)
+						return false;
+				}
 					return true;
 				break;
 			case RelType.OR:
-				if ((_left [0].Truth || _left [1].Truth) == true)
-					return true;
+				foreach (Variable v in _left) {
+					if (v.Truth == true)
+						return true;
+				}
 				break;
 			default:
 				Console.WriteLine ("You're staring into the void lad");

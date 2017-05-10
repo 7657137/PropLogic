@@ -22,7 +22,7 @@ namespace PropLogic
 		}
 
 		public void AddVar(string name){
-			if ((VarByName (name) == null)) {
+			if ((VarByName (name) == null)/* && (!name.Equals(" ")) && (!name.Equals(""))*/) {
 				_vars.Add(new Variable(name));
 			}
 		}
