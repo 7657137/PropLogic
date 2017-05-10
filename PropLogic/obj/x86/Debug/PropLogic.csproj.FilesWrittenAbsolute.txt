@@ -1,0 +1,5 @@
+/home/liam/Documents/AI/PropLogic/PropLogic/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/liam/Documents/AI/PropLogic/PropLogic/bin/Debug/PropLogic.exe.mdb
+/home/liam/Documents/AI/PropLogic/PropLogic/bin/Debug/PropLogic.exe
+/home/liam/Documents/AI/PropLogic/PropLogic/obj/x86/Debug/PropLogic.exe
+/home/liam/Documents/AI/PropLogic/PropLogic/obj/x86/Debug/PropLogic.exe.mdb
