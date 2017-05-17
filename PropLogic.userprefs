@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PropLogic/Properties/TruthTable.cs">
     <Files>
-      <File FileName="PropLogic/Program.cs" Line="12" Column="31" />
+      <File FileName="PropLogic/Program.cs" Line="1" Column="1" />
       <File FileName="PropLogic/Properties/KnowledgeBase.cs" Line="1" Column="1" />
-      <File FileName="PropLogic/Properties/LogicEngine.cs" Line="97" Column="69" />
-      <File FileName="PropLogic/Properties/TruthTable.cs" Line="85" Column="18" />
-      <File FileName="PropLogic/Properties/Relationship.cs" Line="102" Column="22" />
+      <File FileName="PropLogic/Properties/LogicEngine.cs" Line="1" Column="1" />
+      <File FileName="PropLogic/Properties/TruthTable.cs" Line="60" Column="71" />
+      <File FileName="PropLogic/Properties/Relationship.cs" Line="59" Column="94" />
       <File FileName="PropLogic/Properties/Variable.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

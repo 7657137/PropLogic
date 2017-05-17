@@ -56,7 +56,7 @@ namespace PropLogic
 			Console.WriteLine ("=> " + _right.Name);
 		}
 
-		public bool LeftCheck(){
+		public bool LeftCheck(){		//Checks if left side of statement is true, sets right true if so
 			switch (_type) {
 			case RelType.SINGLE:
 				if (_left [0].Truth == true) {
@@ -87,7 +87,7 @@ namespace PropLogic
 			return false;
 		}
 
-		public bool SoftLeftCheck(bool a, bool b, bool c){
+		public bool SoftLeftCheck(bool a, bool b, bool c){ //Relationship check for truth table which doesn't alter vars
 			switch (_type) {
 			case RelType.SINGLE:
 				if (a & c)
@@ -108,7 +108,7 @@ namespace PropLogic
 			return false;
 		}
 
-		public String BackLogicChain(){
+		public String BackLogicChain(){		//Follows list of parents to get the logic path in BC
 			Relationship r = this;
 			String Chain = "";
 			foreach (Variable v in _left) {
