@@ -38,6 +38,8 @@
     <Compile Include="Properties\KnowledgeBase.cs" />
     <Compile Include="Properties\Relationship.cs" />
     <Compile Include="Properties\Variable.cs" />
+    <Compile Include="Properties\LogicEngine.cs" />
+    <Compile Include="Properties\TruthTable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

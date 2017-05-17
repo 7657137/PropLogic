@@ -6,7 +6,10 @@ namespace PropLogic
 	{
 		public static void Main (string[] args)
 		{
-			KnowledgeBase kb = new KnowledgeBase ("test1.txt");
+			LogicEngine Thinker = new LogicEngine( new KnowledgeBase ("test1.txt"));
+			//Thinker.ForwardChain ();
+			//Thinker.BackChain ();
+			Thinker.TruthTableMethod();
 		}
 	}
 }

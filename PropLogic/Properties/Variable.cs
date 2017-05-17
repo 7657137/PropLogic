@@ -25,16 +25,27 @@ namespace PropLogic
 			}
 		}
 
+		public List<Relationship> Rels{
+			get{
+				return _relationships;
+			}
+		}
+
 
 		public Variable (String name)
 		{
 			_name = name;
 			_truth = false;		//To be set true if named in txt file
-	//		_checkflag = false;
 		}
 
 		public void AddRel(Relationship rel){
 			_relationships.Add (rel);
+		}
+		public bool Is(String name){
+			if (_name == name)
+				return true;
+			else
+				return false;
 		}
 	}
 }
