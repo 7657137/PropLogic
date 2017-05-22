@@ -90,16 +90,16 @@ namespace PropLogic
 		public bool SoftLeftCheck(bool a, bool b, bool c){ //Relationship check for truth table which doesn't alter vars
 			switch (_type) {
 			case RelType.SINGLE:
-				if (a & c)
+				if (a == c)
 					return true;
 				break;
 
 			case RelType.AND:
-				if ((a && b) && c)
+				if ((a && b) == c)
 					return true;
 				break;
 			case RelType.OR:
-				if ((a || b) && c)
+				if ((a || b) == c)
 					return true;
 				break;
 			default:
